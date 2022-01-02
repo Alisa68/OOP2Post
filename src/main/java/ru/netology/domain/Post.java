@@ -6,9 +6,9 @@ public class Post {
     private int canDelete; // Информация о том, может ли текущий пользователь удалить запись (1 — может, 0 — не может);
     private int canEdit; // Информация о том, может ли текущий пользователь редактировать запись (1 — может, 0 — не может);
     private int isPinned; //Информация о том, что запись закреплена;
-    private int markedAsAds;//Информация о том, содержит ли запись отметку «реклама» (1 — да, 0 — нет);
+    private boolean markedAsAds;//Информация о том, содержит ли запись отметку «реклама» (true — да, false — нет);
     private boolean isFavorite;//true, если объект добавлен в закладки у текущего пользователя;
 
 
-    //+ getter/setter
+    //+ getter/setter§
 }
